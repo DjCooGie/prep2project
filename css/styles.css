@@ -44,6 +44,14 @@ body {
   border-right: turquoise;
 }
 
+
+h2{
+  background-image: url("../media/flag.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0.5em;
+}
+
 #form {
   color: aliceblue;
   width: 400px;
