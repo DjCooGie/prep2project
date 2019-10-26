@@ -1,5 +1,17 @@
 
 
+
+* {
+  margin: 1px;
+}
+
+html {
+  background-image: url("../media/ary.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: absolute; */
+}
+
 body {
   /* display: block; */
   font-size:30px;
@@ -8,6 +20,7 @@ body {
 }
 
 #container {
+  padding: 50px;
   display: flex;
   justify-content: space-around;
   width: 1000px;
