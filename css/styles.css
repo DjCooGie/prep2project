@@ -92,3 +92,15 @@ input[type="number"] {
   padding: 10px;
   border-radius: 0.4em;
 }
+
+select {
+  cursor: pointer;
+}
+
+output {
+  background: aliceblue;
+  color:  rgb(209, 209, 209);
+  border: 2px solid rgb(106, 132, 139);
+  padding: 20px;
+  border-radius: 0.2em;
+}
