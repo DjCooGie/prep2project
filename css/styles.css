@@ -115,3 +115,9 @@ button:hover {
   animation: shake 1s ;
   transform: translate3d(0,0,0);
 }
+
+span {
+  color: rgb(6, 63, 6);
+  font-size: x-large;
+  text-decoration: underline;
+}
