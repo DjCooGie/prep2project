@@ -104,3 +104,19 @@ output {
   padding: 20px;
   border-radius: 0.2em;
 }
+
+button {
+  display: block;
+  margin-left: 30%;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background: #555705;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+button:hover {
+  animation: shake 1s ;
+  transform: translate3d(0,0,0);
+}
