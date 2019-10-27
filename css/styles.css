@@ -73,4 +73,22 @@ h2{
 #main > p {
   text-align: left;
   color: black;
+  margin-left:8%;
+}
+
+label {
+  /* margin-left: 0px; */
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 10px;
+  border-radius: 0.4em;
 }
