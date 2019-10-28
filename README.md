@@ -18,7 +18,7 @@ This website describes what Akan names are and offers a form that allows the use
 https://djcoogie.github.io/prep2project/
 
 ### Bugs
-The formualae used is under sampling since it displays wrong results
+The formualae used is under sampling since it displays wrong results.
 
 #### License
 This project is Licensed under MIT. ©2019 Copyright.
