@@ -94,7 +94,7 @@ select {
 
 output {
   background: aliceblue;
-  color:  rgb(209, 209, 209);
+  color:  darkgreen;
   border: 2px solid rgb(106, 132, 139);
   padding: 20px;
   border-radius: 0.2em;
