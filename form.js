@@ -12,8 +12,23 @@ function formValidate() {
   var year = document.getElementById("year").value;
   var gender = document.getElementById("gender").value;
 
+  if (day < 1 || day > 31 || day == "" || day == 0) {
+    alert("You have entered an invalid date!");
+  }
+
+  if (month < 1 || month > 12 || month =="" || month == 0) {
+    alert("You have entered an invalid date!");
+  }
+
+  if (year < 1900 || year > 2020 || year == "" || year == 0) {
+    alert("You have entered an invalid year!");
+  }
+
+
+  if (gender == "") {
+    alert("Kindly, add your gender!");
+  }
   
-}
 
 
 
