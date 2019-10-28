@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 
 
@@ -45,11 +46,13 @@ body {
 }
 
 
+
 h2{
   background-image: url("../media/flag.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 0.5em;
+  font-family: 'Courgette', cursive;
 }
 
 #form {
