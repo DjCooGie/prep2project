@@ -6,8 +6,7 @@
   margin: 1px;
 }
 
-html {
-  background-image: url("../media/ary.jpeg");
+html {  background-image: url("../media/ary.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   /* position: absolute; */
@@ -17,7 +16,7 @@ body {
   /* display: block; */
   font-size:26px;
   text-align:center;
-  margin: 5px;
+  margin-top: 20px; 
 }
 
 #container {
@@ -34,7 +33,7 @@ body {
 
 .intro {
   color: black;
-  width: 650px;
+  width: 50%;
   height: 400px;
   padding: 20px;
   border-radius: 0.25em;
@@ -48,11 +47,16 @@ body {
 
 
 h2{
-  background-image: url("../media/flag.jpg");
+  font-family: 'Courgette', cursive;
+  text-decoration: underline;
+}
+
+img {
+  height: 50px;
+
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 0.5em;
-  font-family: 'Courgette', cursive;
+  border-radius: 0.2em;
 }
 
 #form {
@@ -64,8 +68,8 @@ h2{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
   border: 1px solid rgb(37,33,41);
-  margin-left: 80%;
-  margin-top: 15%;
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 #main {
@@ -74,8 +78,11 @@ h2{
 }
 
 #main > p {
-  text-align: left;
-  color: black;
+  border-radius: 0.1em;
+  text-align: center;
+  color: darkgreen;
+  background: white;
+  width: 30%;
   margin-left:8%;
 }
 
@@ -105,7 +112,7 @@ output {
 
 button {
   display: block;
-  margin-left: 70%;
+  margin-left: 30%;
   padding: 10px 20px;
   font-size: 20px;
   color: white;
@@ -140,7 +147,3 @@ span {
   }
 }
 
-
-@media only screen and (min-width:450px) {
-  
-}
