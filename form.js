@@ -25,7 +25,11 @@ function formValidate() {
     alert("You have entered an invalid year!");
   }
 
-  let bdate = Math.trunc((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
+
+  let a = Math.floor((14 - month) / 12);
+  let y = year - a;
+  let m = month + 12 * a - 2;
+  let bdate = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(y / 400) + Math.floor((31 * m) / 12)) % 7;
 
 
   if (gender == "male") {

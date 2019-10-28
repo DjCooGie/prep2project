@@ -105,7 +105,7 @@ output {
 
 button {
   display: block;
-  margin-left: 30%;
+  margin-left: 70%;
   padding: 10px 20px;
   font-size: 20px;
   color: white;
@@ -140,3 +140,9 @@ span {
   }
 }
 
+
+@media only screen and (min-width:450px) {
+  * {
+    background-color: lightblue;
+  }
+}
