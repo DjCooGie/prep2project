@@ -11,6 +11,8 @@ function formValidate() {
   var month = parseInt(document.getElementById("month").value);
   var year = document.getElementById("year").value;
   var gender = document.getElementById("gender").value;
+  var cc = year.slice(0, 2);
+  var yy = year.slice(2, 4);
 
   if (day < 1 || day > 31 || day == "" || day == 0) {
     alert("You have entered an invalid date!");
@@ -30,6 +32,7 @@ function formValidate() {
   }
   
 
+  var onDate = Math.trunc((((cc / 4) - (2 * cc - 1)) + ((5 * yy / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
 
 
 
