@@ -7,8 +7,8 @@ var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 // Function to validate form
 function formValidate() {
-  var day = document.getElementById("day").value;
-  var month = document.getElementById("month").value;
+  var day = parseInt(document.getElementById("day").value);
+  var month = parseInt(document.getElementById("month").value);
   var year = document.getElementById("year").value;
   var gender = document.getElementById("gender").value;
 
