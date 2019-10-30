@@ -4,6 +4,15 @@ Evans Nyambane
 ### Description
 This website describes what Akan names are and offers a form that allows the user to enter some details in order to display their day of the week and the name following Akan naming criteria.
 
+### Akan Webpage
+![Camouflage](media/readme.jpg)
+
+### Setup and installation requirements
+- `https://github.com/DjCooGie/prep2project.git`
+- `cd prep2project`
+- `code .` # (For Visual Studio Code text editor)
+- `atom .` # (for Atom text editor)
+
 ### Languages used
 1. JavaScript
 2. HTML
@@ -18,10 +27,13 @@ This website describes what Akan names are and offers a form that allows the use
 https://djcoogie.github.io/prep2project/
 
 ### Bugs
-The formualae used is under sampling since it displays wrong results.
+The formualae used is under sampling since it kind of displays wrong results to some inputs.
+
+### Support and contact details
+Incase of any questions, problems ideas concerning the application, feel free to reach out by email. (evansonchagwa01@gmail.com)
 
 #### License
-This project is Licensed under MIT. ©2019 Copyright.
+ *MIT LICENSE*
+Copyright.©2019 **Evans Nyambane**
 
-### Akan Webpage
-![Camouflage](media/readme.jpg)
+
