@@ -8,7 +8,7 @@ This website describes what Akan names are and offers a form that allows the use
 ![Camouflage](media/readme.jpg)
 
 ### Setup and installation requirements
-- `https://github.com/DjCooGie/prep2project.git`
+- `git clone https://github.com/DjCooGie/prep2project.git`
 - `cd prep2project`
 - `code .` # (For Visual Studio Code text editor)
 - `atom .` # (for Atom text editor)
