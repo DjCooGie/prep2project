@@ -1,109 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Akan Names - Ghanaian Names App</title>
-  <link rel="icon" href="media/favicon-32x32.png">
+	<link rel="icon" href="media/favicon-32x32.png">
 
-   	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-   	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">   
-   	<link rel='stylesheet' href='css/styles.css'>
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+		rel="stylesheet">
+	<link rel='stylesheet' href='css/styles.css'>
 </head>
+
 <body>
 	<div class="container">
 		<div class="row">
-			
-            <h1 class="akan-heading"><img class="akanlog" src="media/akann.png" alt="AKANCULTURE" align="left"> <span class="heading-name"> Akan</span> Naming Culture</h1>
-            <hr>
+
+			<h1 class="akan-heading"><img class="akanlog" src="media/akann.png" alt="AKANCULTURE" align="left"> <span
+					class="heading-name"> Akan</span> Naming Culture</h1>
+			<hr>
 			<div class="col-md-6 intro">
 
 				<div class="akan-description">
-					<p class="fs12">The <strong>Ghanaian akan people</strong> name their children after the day of the week they are born and the order in which they were born.</p>
-          <p>This web application takes a person's birthday and calculates the day of the week they were born and outputs their Akan Name depending on their gender.</p>
-        
-					
-                            <table class="table table-bordered">
-                                <caption class="cap">List of Akan Names</caption>
-                                <thead>
-                                  <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Sunday</th>
-                                    <th scope="col">Monday</th>
-                                    <th scope="col">Tuesday</th>
-                                    <th scope="col">Wednesday</th>
-                                    <th scope="col">Thursday</th>
-                                    <th scope="col">Friday</th>
-                                    <th scope="col">Saturday</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row"><h4><i class="fa fa-female"></i><br> Female</h4></th>
-                                    <td>Akosua</td>
-                                    <td>Adwoa</td>
-                                    <td>Abenaa</td>
-                                    <td>Akua</td>
-                                    <td>Yaa</td>
-                                    <td>Afua</td>
-                                    <td>Ama</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row"> <h4><i class="fa fa-male"></i><br> Male</h4> </th>
-                                    <td>Kwasi</td>
-                                    <td>Kwadwo</td>
-                                    <td>Kwabena</td>
-                                    <td>Kwaku</td>
-                                    <td>Yaw</td>
-                                    <td>Kofi</td>
-                                    <td>Kwame</td>
-                                  </tr>
-                                 
-                                </tbody>
-                              </table>
-						
-					
+					<p class="fs12">The <strong>Ghanaian akan people</strong> name their children after the day of the
+						week they are born and the order in which they were born.</p>
+					<p>This web application takes a person's birthday and calculates the day of the week they were born
+						and outputs their Akan Name depending on their gender.</p>
+
+
+					<table class="table table-bordered">
+						<caption class="cap">List of Akan Names</caption>
+						<thead>
+							<tr>
+								<th scope="col"></th>
+								<th scope="col">Sunday</th>
+								<th scope="col">Monday</th>
+								<th scope="col">Tuesday</th>
+								<th scope="col">Wednesday</th>
+								<th scope="col">Thursday</th>
+								<th scope="col">Friday</th>
+								<th scope="col">Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">
+									<h4><i class="fa fa-female"></i><br> Female</h4>
+								</th>
+								<td>Akosua</td>
+								<td>Adwoa</td>
+								<td>Abenaa</td>
+								<td>Akua</td>
+								<td>Yaa</td>
+								<td>Afua</td>
+								<td>Ama</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<h4><i class="fa fa-male"></i><br> Male</h4>
+								</th>
+								<td>Kwasi</td>
+								<td>Kwadwo</td>
+								<td>Kwabena</td>
+								<td>Kwaku</td>
+								<td>Yaw</td>
+								<td>Kofi</td>
+								<td>Kwame</td>
+							</tr>
+
+						</tbody>
+					</table>
+
+
 				</div>
 			</div>
-            <div class="col-md-2"></div>
+			<div class="col-md-2"></div>
 			<div class="col-md-4 mt30 akan-form">
 				<h5>Enter Your Birthdate Below:</h5>
 				<div class="add-stylist-form">
 					<form>
 						<div class="form-group mb15">
-			              	<label class="label">Birthday</label>
-			               	<div class="input-group mb15">
-				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-				                <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
-				             </div>
-			            </div>   
+							<label class="label">Birthday</label>
+							<div class="input-group mb15">
+								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+								<input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control"
+									autocomplete="off">
+							</div>
+						</div>
 
 						<div class="form-group mb15">
-			              	<label class="label">Gender</label>
-			               	<div class="rdio rdio-default fs11">
-		                        <input type="radio" name="gender" id="male" value="Male">
-		                        <label for="male">&nbsp;&nbsp;Male</label>
-		                    </div>
-		                    <div class="rdio rdio-default fs11">
-		                        <input type="radio" name="gender" value="Female" id="female">
-		                        <label for="female">&nbsp;&nbsp;Female</label>
-		                     </div>
-			            </div>
-			            <button type="submit" onclick="getAkanName(); return false;" class="btn btn-default "></i>SUBMIT</button>
-			            <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default ">RESET</button>		
-					</form>	
+							<label class="label">Gender</label>
+							<div class="rdio rdio-default fs11">
+								<input type="radio" name="gender" id="male" value="Male">
+								<label for="male">&nbsp;&nbsp;Male</label>
+							</div>
+							<div class="rdio rdio-default fs11">
+								<input type="radio" name="gender" value="Female" id="female">
+								<label for="female">&nbsp;&nbsp;Female</label>
+							</div>
+						</div>
+						<button type="submit" onclick="getAkanName(); return false;"
+							class="btn btn-default "></i>SUBMIT</button>
+						<button type="reset" onclick="clearAkanMessage(); return false;"
+							class="btn btn-default ">RESET</button>
+					</form>
 				</div>
 				<hr>
 				<div class="your-akan-name">
 					<p id="message" class="output"></p>
 				</div>
 			</div>
-			
+
 		</div>
 
-		<footer class="footer"><p>By <a href="https://github.com/jusinam" target="_blank">Evans</a>. &copy; 2019 All Rights Reserved.</p></footer>
+		<footer class="footer">
+			<p>By <a href="https://github.com/jusinam" target="_blank">Evans</a>. &copy; 2019 All Rights Reserved.</p>
+		</footer>
 	</div>
 	<script src="js/jquery-3.4.1.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
+
 </html>
