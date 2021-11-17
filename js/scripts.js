@@ -4,13 +4,13 @@ $(document).ready(function () {
 
 
 function getAkanName() {
-    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
-    var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-    var myBirthday = document.getElementById("myBirthDate").value;
-    var myGender = document.getElementsByName("gender");
-    var dateOfBirth = new Date(myBirthday);
-    var dayOfTheWeek = dateOfBirth.getDay();
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+    let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+    let myBirthday = document.getElementById("myBirthDate").value;
+    let myGender = document.getElementsByName("gender");
+    let dateOfBirth = new Date(myBirthday);
+    let dayOfTheWeek = dateOfBirth.getDay();
     if (myBirthday === "") {
         document.getElementById('message').innerHTML = "<p class=\"alert alert-danger\">Submit a Valid Date!</p>";
         $('#message').addClass("animated bounce");
