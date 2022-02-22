@@ -52,4 +52,4 @@ Incase of any questions, problems ideas concerning the application, feel free to
 
 #### License
 MIT
-&copy;2020 Evans Nyambane
+&copy;2020 Evans Onchagwa
