@@ -50,3 +50,6 @@ The formualae used is under sampling since it kind of displays wrong results to 
 ### Support and contact details
 Incase of any questions, problems ideas concerning the application, feel free to reach out by email. (evans.program@gmail.com)
 
+#### License
+MIT
+&copy;2020 Evans Nyambane
