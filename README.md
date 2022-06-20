@@ -1,8 +1,9 @@
+# Akan People
+#### Description
+  This web application takes a person's birthday and calculates the day of the week they were born and outputs their Akan Name depending on their gender.
+
 ## Author
 Evans ON
-
-### Description
-This web application takes a person's birthday and calculates the day of the week they were born and outputs their Akan Name depending on their gender.
 
 ### Akan Webpage
 ![Camouflage](media/readme.png)
@@ -41,10 +42,10 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request -->
 
 
-### Live link: [Clicke here](https://jusinam.github.io/akanpeople/)
+### Live link: [Click here](https://jusinam.github.io/akanpeople/)
 
 ### Bugs
-The formualae used is under sampling since it kind of displays wrong results to some inputs.
+The formualae used is under development since it kind of displays wrong results to some inputs.
 
 ### Support and contact details
 Incase of any questions, problems ideas concerning the application, feel free to reach out by email.
