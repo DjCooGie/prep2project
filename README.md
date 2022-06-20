@@ -1,5 +1,5 @@
 ## Author
-Evans Onchagwa
+Evans ON
 
 ### Description
 This web application takes a person's birthday and calculates the day of the week they were born and outputs their Akan Name depending on their gender.
@@ -41,15 +41,16 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request -->
 
 
-### Live link
-https://jusinam.github.io/akanpeople/
+### Live link: [Clicke here](https://jusinam.github.io/akanpeople/)
 
 ### Bugs
 The formualae used is under sampling since it kind of displays wrong results to some inputs.
 
 ### Support and contact details
-Incase of any questions, problems ideas concerning the application, feel free to reach out by email. (evans.program@gmail.com)
+Incase of any questions, problems ideas concerning the application, feel free to reach out by email.
+
+[Send mail](mailto:evansonchagwa01@gmail.com)
 
 #### License
 MIT
-&copy;2020 Evans Onchagwa
+&copy;2020 Evans ON
